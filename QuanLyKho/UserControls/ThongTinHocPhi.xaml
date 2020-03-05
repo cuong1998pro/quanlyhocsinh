@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="QuanLyKho.UserControls.ThongTinHocPhi"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanLyKho.UserControls"
+             d:DesignHeight="723" d:DesignWidth="1100"
+             mc:Ignorable="d" 
+              TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+            TextElement.FontWeight="Regular"
+            TextElement.FontSize="13"
+            TextOptions.TextFormattingMode="Ideal"
+            TextOptions.TextRenderingMode="Auto"
+            xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+            Background="{DynamicResource MaterialDesignPaper}"
+            FontFamily="{DynamicResource MaterialDesignFont}"
+            DataContext="{DynamicResource MainVM}"
+            >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="170"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <materialDesign:Card>
+                <TextBlock Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="10" Text=" Quản lý thông tin học phí"></TextBlock>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="1">
+                <Grid>
+                    <ComboBox materialDesign:HintAssist.Hint="Chọn đợt thu" Margin="62,84,850,58" RenderTransformOrigin="0.5,1.5" >
+                    </ComboBox>
+                    <TextBox materialDesign:HintAssist.Hint="Chọn học sinh" Style="{StaticResource MaterialDesignFloatingHintTextBox}"  Height="45"  TextChanged="TextBox_TextChanged"  Margin="62,18,850,107"/>
+                    <TextBox materialDesign:HintAssist.Hint="Số tiền còn lại" Style="{StaticResource MaterialDesignFloatingHintTextBox}" IsReadOnly="True" Height="45"   Margin="345,66,567,59"/>
+
+                    <TextBox materialDesign:HintAssist.Hint="Số tiền nộp" Style="{StaticResource MaterialDesignFloatingHintTextBox}" IsReadOnly="true" Height="45"   Margin="345,18,567,107"/>
+                    
+                    <TextBox materialDesign:HintAssist.Hint="Ghi chú" Style="{StaticResource MaterialDesignFloatingHintTextBox}"  Height="45"   Margin="621,18,291,107"/>
+
+                    <Button Content="Thanh toán" Width="120" Margin="848,31,132,107" Background="#FF7CB88A"></Button>
+                    <Button Content="In hoá đơn" Width="120" Margin="848,74,132,64"></Button>
+                </Grid>
+        </Grid>
+      
+        <Grid Grid.Row="2" Panel.ZIndex="0">
+            <TextBlock Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="66,-22,-66,22" > Danh sách khoản thu</TextBlock>
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="66,10,42,0">
+                    <DataGrid CanUserSortColumns="True" CanUserAddRows="False" AutoGenerateColumns="False" materialDesign:DataGridAssist.CellPadding="13 8 8 8" materialDesign:DataGridAssist.ColumnHeaderPadding="8">
+                        <DataGrid.Columns>
+                            <materialDesign:MaterialDataGridTextColumn Width="120" Header="Mã học sinh" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+                            <materialDesign:MaterialDataGridTextColumn Header="Họ tên" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" Width="150" />
+                            <materialDesign:MaterialDataGridTextColumn Header="Tên khoản thu" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" Width="150" />
+                            <materialDesign:MaterialDataGridTextColumn Header="Số tiền" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" Width="150"/>
+                            <materialDesign:MaterialDataGridTextColumn Header="Ghi chú" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" Width="150"/>
+                            <DataGridCheckBoxColumn ElementStyle="{StaticResource MaterialDesignDataGridCheckBoxColumnStyle}" EditingElementStyle="{StaticResource MaterialDesignDataGridCheckBoxColumnEditingStyle}" Header="Tình trạng">
+                            </DataGridCheckBoxColumn>
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </ScrollViewer>
+        </Grid>
+        <materialDesign:Card Height="200" Panel.ZIndex="100" Margin="37,53,826,0" Grid.Row="1" Grid.RowSpan="2"  Visibility="Hidden" x:Name="crDSGV">
+            <ListBox Height="200" Width="300" Background="White">
+                <ListBoxItem>69509_cuong</ListBoxItem>
+                <ListBoxItem>69509_cuong</ListBoxItem>
+                <ListBoxItem>69509_cuong</ListBoxItem>
+            </ListBox>
+        </materialDesign:Card>
+    </Grid>
+
+</UserControl>

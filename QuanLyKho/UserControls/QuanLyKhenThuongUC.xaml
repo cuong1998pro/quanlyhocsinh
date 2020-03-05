@@ -1,0 +1,116 @@
+﻿<UserControl x:Class="QuanLyKho.UserControls.QuanLyKhenThuongUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanLyKho.UserControls"
+             d:DesignHeight="723" d:DesignWidth="1100"
+             mc:Ignorable="d" 
+              TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+            TextElement.FontWeight="Regular"
+            TextElement.FontSize="13"
+            TextOptions.TextFormattingMode="Ideal"
+            TextOptions.TextRenderingMode="Auto"
+            xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+            Background="{DynamicResource MaterialDesignPaper}"
+            FontFamily="{DynamicResource MaterialDesignFont}"
+            DataContext="{DynamicResource MainVM}"
+            x:Name="ucControlBar">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="auto" MinHeight="63"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <materialDesign:Card>
+                <TextBlock Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="10" Text=" Quản lý danh sách khen thưởng"></TextBlock>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="1">
+                <Grid>
+                    <ComboBox materialDesign:HintAssist.Hint="Chọn học kỳ" Margin="69,33,833,79">
+                    </ComboBox>                    
+                    <TextBox materialDesign:HintAssist.Hint="Chọn học sinh" Style="{StaticResource MaterialDesignFloatingHintTextBox}"  Height="45" Margin="69,61,833,34" TextChanged="TextBox_TextChanged"/>
+                    <TextBox materialDesign:HintAssist.Hint="Lý do khen thưởng" Style="{StaticResource MaterialDesignFloatingHintTextBox}"  Height="45" Margin="453,16,449,79"/>
+                    <TextBox materialDesign:HintAssist.Hint="Hình thức khen thưởng" Style="{StaticResource MaterialDesignFloatingHintTextBox}"  Height="45" Margin="453,61,449,34"/>
+                    <ComboBox materialDesign:HintAssist.Hint="Trạng thái" Margin="804,33,132,79">
+                        <ComboBoxItem>Chưa nhận</ComboBoxItem>
+                        <ComboBoxItem>Đã nhận</ComboBoxItem>
+                    </ComboBox>
+                </Grid>
+        </Grid>
+        <Grid Grid.Row="2" Panel.ZIndex="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="870*"/>
+                <ColumnDefinition Width="293*"/>
+            </Grid.ColumnDefinitions>
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" MinWidth="139"></ColumnDefinition>
+                        <ColumnDefinition Width="auto" MinWidth="128"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto" MinWidth="204" ></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="auto" MinWidth="252"></ColumnDefinition>
+
+
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button Name="btnThem" Margin=" 30 8 15 8"  Content="Thêm" Background="#FF8CC565" Width="110"></Button>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Button Name="btnSua" Margin=" 15 8 15 8"  Content="Sửa" Background="#6897C8" Width="110"></Button>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Button Name="btnXoa" Margin=" 15 8 15 8"  Content="Xóa" Background="#CC3C3C" Width="110"></Button>
+                    </Grid>
+                    <Grid Grid.Column="3">
+                        <materialDesign:PackIcon Kind="Sort" Width="30" Height="40" Margin="20,7,0,0" RenderTransformOrigin="-0.133,0.575" />
+                        <ComboBox materialDesign:HintAssist.Hint="Sắp xếp" Margin="55,12,12,13">
+                            <ComboBoxItem>Theo mã</ComboBoxItem>
+
+                        </ComboBox>
+                    </Grid>
+                    <Grid Grid.Column="4" Margin="0,0,46,0">
+
+                        <TextBox x:Name="txtTim" materialDesign:HintAssist.Hint="Tìm kiếm" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="23,-10,12,13"  />
+                    </Grid>
+                    <Grid Grid.Column="5">
+                        <Button Name="btnInDanhSach"  Margin="-11,10,153,11"  Content="Xuất Exel" Width="110"></Button>
+                    </Grid>
+                </Grid>
+
+        </Grid>
+        <Grid Grid.Row="3" Panel.ZIndex="0">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <ListView>
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Width="100"  Header="Mã khen thưởng"></GridViewColumn>
+                                <GridViewColumn Width="220" Header="Tên học sinh"></GridViewColumn>
+                                <GridViewColumn Width="200" Header="Lý do khen thưởng"></GridViewColumn>
+                                <GridViewColumn Width="200" Header="Hình thức khen thưởng"></GridViewColumn>
+        
+                                <GridViewColumn Width="200" Header="Tình trạng"></GridViewColumn>
+
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </ScrollViewer>
+        </Grid>
+        <materialDesign:Card Width="300" Height="200" Panel.ZIndex="100" Margin="67,114,796,0" Grid.Row="1" Grid.RowSpan="3"  Visibility="Hidden" x:Name="crDSGV">
+            <ListBox Height="200" Width="300" Background="White">
+
+                <ListBoxItem>69509_cuong</ListBoxItem>
+                <ListBoxItem>69509_cuong</ListBoxItem>
+
+                <ListBoxItem>69509_cuong</ListBoxItem>
+
+            </ListBox>
+        </materialDesign:Card>
+    </Grid>
+
+</UserControl>

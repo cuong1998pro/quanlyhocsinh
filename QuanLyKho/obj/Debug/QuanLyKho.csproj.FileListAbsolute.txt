@@ -1,0 +1,490 @@
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.g.cs
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.g.cs
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\App.g.cs
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_Content.g.cs
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.cache
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.lref
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.dll
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.pdb
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\App.baml
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.baml
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\Resource\MainResource.baml
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.baml
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.g.resources
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+C:\Users\cuong\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.dll
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.pdb
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.g.cs
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.g.cs
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\App.g.cs
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_Content.g.cs
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.cache
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.lref
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\App.baml
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.baml
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\Resource\MainResource.baml
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.baml
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.g.resources
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CoreCompileInputs.cache
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.dll
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.pdb
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.g.cs
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.g.cs
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\App.g.cs
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_Content.g.cs
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.cache
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.lref
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\App.baml
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.baml
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\Resource\MainResource.baml
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.baml
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.g.resources
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+D:\usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\usb\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.xml
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.dll
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
+F:\usb\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.xml
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.g.cs
+F:\usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.dll
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.pdb
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.xml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\App.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_Content.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.cache
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.lref
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\App.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\Resource\MainResource.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.g.resources
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\DanhSachLopUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.g.cs
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\DanhSachLopUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.baml
+D:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucKhoanThu.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\PhanCongGiangDayUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKhenThuongUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKyLuatUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocBaUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\App.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_Content.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.cache
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.lref
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.dll
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.dll
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.pdb
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
+F:\ \usb\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.xml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\App.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\Resource\MainResource.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucKhoanThu.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\PhanCongGiangDayUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKhenThuongUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKyLuatUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocBaUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.g.resources
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachLopUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachLopUC.baml
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\TaoThongBaoUC.g.cs
+F:\ \usb\QuanLyKho\QuanLyKho\obj\Debug\UserControls\TaoThongBaoUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucKhoanThu.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachLopUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\PhanCongGiangDayUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKhenThuongUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKyLuatUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\TaoThongBaoUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocBaUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\App.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_Content.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.cache
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.lref
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.dll
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.dll
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.xml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.pdb
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\App.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\Resource\MainResource.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucKhoanThu.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachLopUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\PhanCongGiangDayUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKhenThuongUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKyLuatUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\TaoThongBaoUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocBaUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.g.resources
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NamHocUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NamHocUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetNamHocUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetNamHocUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HanhKiem.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocLucUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\LoaiDiemUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\XepLoaiUC.g.cs
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HanhKiem.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocLucUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\LoaiDiemUC.baml
+C:\Users\cuong\Documents\QuanLyKho\QuanLyKho\obj\Debug\UserControls\XepLoaiUC.baml
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.dll
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.SqlServer.dll
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.dll
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.dll
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.xml
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.SqlServer.xml
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.pdb
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
+F:\ \QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.xml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\MainWindow.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetNamHocUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucKhoanThu.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachLopUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\HanhKiem.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocLucUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\LoaiDiemUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\NamHocUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\PhanCongGiangDayUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKhenThuongUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKyLuatUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\TaoThongBaoUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocBaUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\XepLoaiUC.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\App.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_Content.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.cache
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.lref
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\App.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\MainWindow.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\Resource\MainResource.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetNamHocUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucKhoanThu.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachLopUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\HanhKiem.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocLucUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\LoaiDiemUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\NamHocUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\PhanCongGiangDayUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKhenThuongUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKyLuatUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\TaoThongBaoUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocBaUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\UserControls\XepLoaiUC.baml
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.g.resources
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+F:\ \QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+E:\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+E:\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+E:\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+E:\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.dll
+E:\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.SqlServer.dll
+E:\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.dll
+E:\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
+E:\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.xml
+E:\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.SqlServer.xml
+E:\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignColors.pdb
+E:\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\QuanLyKho\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.xml
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+E:\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetNamHocUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucKhoanThu.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachLopUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HanhKiem.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocLucUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\LoaiDiemUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NamHocUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\PhanCongGiangDayUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKhenThuongUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKyLuatUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\TaoThongBaoUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocBaUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\XepLoaiUC.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\App.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_Content.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.cache
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.lref
+E:\QuanLyKho\QuanLyKho\obj\Debug\App.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\MainWindow.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\Resource\MainResource.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetNamHocUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\BangTongKetUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ControlBarUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucDotThuUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucHocKyUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucKhoanThu.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucLopUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhMucMonHocUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachLopUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DanhSachNguoiDungUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\DoiMatKhauUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\GiaoVienUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HanhKiem.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocLucUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\HocSinhUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\Home.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\LoaiDiemUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NamHocUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\NienKhoaUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\PhanCongGiangDayUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKhenThuongUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\QuanLyKyLuatUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\SoDiemUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\TaoThongBaoUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocBaUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\ThongTinHocPhi.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\UserControls\XepLoaiUC.baml
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.g.resources
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+E:\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb

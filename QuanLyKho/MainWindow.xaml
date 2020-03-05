@@ -1,0 +1,298 @@
+﻿<Window x:Class="QuanLyKho.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyKho"
+        mc:Ignorable="d"
+        Title="Phần mềm quản lý kho" Height="768" Width="1366"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:uc="clr-namespace:QuanLyKho.UserControls"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        DataContext="{DynamicResource MainVM}"
+        WindowStyle="None"
+        WindowState="Maximized"
+        Background="{DynamicResource MaterialDesignPaper}"
+        WindowStartupLocation="CenterScreen"
+        Name="mainWindow"
+        
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="723"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <uc:ControlBarUC Tag="{Binding Title,ElementName=mainWindow}"></uc:ControlBarUC>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="260"></ColumnDefinition>
+                <ColumnDefinition Width="1100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" >
+
+                <materialDesign:Card HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="0 0 3 0" Height="723"  >
+                    <materialDesign:Card.Background>
+                        <VisualBrush>
+                            <VisualBrush.Visual>
+                                <Image Source="Resource/back_ground_final.png" Stretch="UniformToFill">
+                                    <Image.BitmapEffect>
+                                        <BlurBitmapEffect KernelType="Gaussian" Radius="0" />
+                                    </Image.BitmapEffect>
+                                </Image>
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </materialDesign:Card.Background>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" Background="{x:Null}" Opacity="1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="112"></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <materialDesign:Chip Content="James Willock" Margin="22,20,0,53" Height="Auto" Width="169" Background="Transparent">
+                                    <materialDesign:Chip.Icon>
+                                        <Image Source="anhthe_1" />
+                                    </materialDesign:Chip.Icon>
+                                </materialDesign:Chip>
+                                <TextBlock Text="CHỨC NĂNG CHÍNH" FontSize="18" VerticalAlignment="Center" Margin="22,74,-22,16" />
+                            </Grid>
+                            <Grid Grid.Row="1">
+
+                                <StackPanel  >
+                                    <Expander Header="Hệ thống" Background="Transparent" BorderBrush="#FFACAAAA" x:Name="expHeThong" Expanded="expHeThong_Expanded"  >
+                                        <StackPanel>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_1">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="Home"   Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0" />
+                                                    <TextBlock Text="Trang chủ" FontSize="16" Margin="34,2,-34,-2" />
+                                                </Grid>
+                                            </Button>
+                                            <Button  
+                                                    Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82"  Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_3">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="Lock"   Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Đổi mật khẩu" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_8">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="AccountBox"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="DS người dùng" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="Settings"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Phân quyền" FontSize="16" Margin="34,2,-34,-2"/>
+                                                </Grid>
+                                            </Button>
+                                        </StackPanel>
+                                    </Expander>
+                                    <Expander Header="Danh mục chung" x:Name="expDanhMuc" Expanded="expDanhMuc_Expanded"  Background="Transparent">
+                                        <StackPanel>
+                                            <Button Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_2">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="ClipboardAccount"   Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Tạo hồ sơ giáo viên" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_15">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="FolderMultipleOutline"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Danh mục năm học" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_6">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="FolderMultipleOutline"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Danh mục học kỳ" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_10">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="BookOpen"   Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Danh mục môn học" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_19">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="FormatListBulleted"   Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Danh mục học lực" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_20">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="FormatListBulleted"   Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Danh mục hạnh kiểm" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_21">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="FormatListBulleted"   Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Danh mục xếp loại" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+
+                                        </StackPanel>
+                                    </Expander>
+                                    <Expander Header="Quản lý học sinh" x:Name="expHocsinh" Expanded="expQuanLyHocsinh_Expanded"  Background="Transparent">
+                                        <StackPanel>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="ContactMail"      Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Tạo hồ sơ học sinh" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_4">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="FolderMultipleOutline"   Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Tạo danh mục khoá" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_5" >
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="HomeOutline"  Width="20" Height="20"    HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Tạo danh mục lớp" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_16">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="FileDocumentBox"     Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Tạo danh sách lớp" Margin="34,0,-34,-2" FontSize="16" Height="20" VerticalAlignment="Bottom"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_9">
+                                                <Grid>
+
+                                                    <materialDesign:PackIcon Kind="Star"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Quản lý khen thưởng" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_12">
+                                                <Grid>
+
+                                                    <materialDesign:PackIcon Kind="Broom"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Quản lý kỷ luật" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                        </StackPanel>
+                                    </Expander>
+                                    <Expander Header="Quản lý điểm" x:Name="expDiem" Expanded="expQuanLyDiem_Expanded"  Background="Transparent">
+                                        <StackPanel>
+
+
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_14">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="School"      Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Sổ điểm bộ môn" Margin="34,2,-34,-2" FontSize="16" Grid.ColumnSpan="2"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_13">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="LibraryBooks"     Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Tổng kết học kỳ" Margin="34,2,-34,-2" FontSize="16" Grid.ColumnSpan="2"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_18">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="LibraryBooks"     Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Tổng kết năm học" Margin="34,2,-34,-2" FontSize="16" Grid.ColumnSpan="2"></TextBlock>
+                                                </Grid>
+                                            </Button>
+
+
+                                        </StackPanel>
+                                    </Expander>
+                                    <Expander Header="Quản lý học phí" x:Name="expHocphi" Expanded="expQuanLyHocphi_Expanded"  Background="Transparent">
+                                        <StackPanel>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_17">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="FolderMultipleOutline"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Tạo đợt thu" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_7">
+                                                <Grid>
+
+                                                    <materialDesign:PackIcon Kind="FormatListBulleted"     Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Tạo khoản thu" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_11">
+                                                <Grid>
+
+                                                    <materialDesign:PackIcon Kind="CurrencyUsd"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Quản lý học phí" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click_11">
+                                                <Grid>
+
+                                                    <materialDesign:PackIcon Kind="History"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Xem lịch sử " Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                        </StackPanel>
+                                    </Expander>
+                                    <Expander Header="Báo cáo thông kê" x:Name="expBaoCao" Expanded="expBaoCao_Expanded"  Background="Transparent">
+                                        <StackPanel>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="FileDocumentBox"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Danh sách lớp" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="School"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Bảng điểm tổng kết" Margin="34,2,-34,-2" FontSize="16" Grid.ColumnSpan="2"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0" Click="Button_Click">
+                                                <Grid>
+                                                    <materialDesign:PackIcon Kind="ContactMail"    Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock Text="Bảng điểm theo lớp" Margin="34,2,-34,-2" FontSize="16"></TextBlock>
+                                                </Grid>
+                                            </Button>
+                                            <Button  Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" FontSize="18"  Foreground="#5E5E82" Height="50" BorderBrush="#FFB9B9B9" BorderThickness="0,1,0,0">
+                                                <Grid>
+
+                                                    <materialDesign:PackIcon Kind="CurrencyUsd"   Height="20" Width="20"  HorizontalAlignment="left"  VerticalAlignment="center" Margin="0,0,188,0"/>
+                                                    <TextBlock  Margin="34,0,-34,0" FontSize="16">
+                                                        <Run Text="Danh sách học sinh"></Run>
+                                                        <LineBreak></LineBreak>
+                                                        <Run Text="chưa đóng tiền"></Run>
+                                                    </TextBlock>
+                                                </Grid>
+                                            </Button>
+                                        </StackPanel>
+                                    </Expander>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </ScrollViewer>
+                </materialDesign:Card>
+            </Grid>
+
+            <Grid Grid.Column="1" x:Name="gridMain">
+
+                <materialDesign:DialogHost Name="dialog1">
+                    <materialDesign:DialogHost.DialogContent>
+                        <uc:DoiMatKhauUC></uc:DoiMatKhauUC>
+                    </materialDesign:DialogHost.DialogContent>
+                </materialDesign:DialogHost>
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
+ 

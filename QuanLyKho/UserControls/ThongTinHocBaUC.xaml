@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="QuanLyKho.UserControls.ThongTinHocBaUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanLyKho.UserControls"
+             d:DesignHeight="723" d:DesignWidth="1100"
+             mc:Ignorable="d" 
+              TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+            TextElement.FontWeight="Regular"
+            TextElement.FontSize="13"
+            TextOptions.TextFormattingMode="Ideal"
+            TextOptions.TextRenderingMode="Auto"
+            xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+            Background="{DynamicResource MaterialDesignPaper}"
+            FontFamily="{DynamicResource MaterialDesignFont}"
+            DataContext="{DynamicResource MainVM}"
+            x:Name="ucControlBar">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="171*" ></RowDefinition>
+            <RowDefinition Height="116*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <materialDesign:Card>
+                <TextBlock Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="10" Text=" Quản lý thông tin học bạ"></TextBlock>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid>
+                <ComboBox materialDesign:HintAssist.Hint="Chọn học kỳ" Margin="57,36,867,36" >
+                </ComboBox>
+                <TextBox materialDesign:HintAssist.Hint="Chọn học sinh" Style="{StaticResource MaterialDesignFloatingHintTextBox}"  Height="45"  TextChanged="TextBox_TextChanged"  Margin="394,19,518,36"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="2" Panel.ZIndex="0">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Height="544" VerticalAlignment="Top" Margin="40,10,42,-212">
+                <DataGrid CanUserSortColumns="True" CanUserAddRows="False" AutoGenerateColumns="False" materialDesign:DataGridAssist.CellPadding="13 8 8 8" materialDesign:DataGridAssist.ColumnHeaderPadding="8">
+                    <DataGrid.Columns>
+                        <materialDesign:MaterialDataGridTextColumn Header="Mã môn" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+                        <materialDesign:MaterialDataGridTextColumn Header="Tên môn" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" Width="150" />
+                        <materialDesign:MaterialDataGridTextColumn Header="Điểm tổng kết" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" Width="150" />
+                        <materialDesign:MaterialDataGridTextColumn Header="Điểm thi lại" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" Width="150"/>
+                        <materialDesign:MaterialDataGridTextColumn Header="Ghi chú" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" Width="150"/>
+                        <DataGridCheckBoxColumn ElementStyle="{StaticResource MaterialDesignDataGridCheckBoxColumnStyle}" EditingElementStyle="{StaticResource MaterialDesignDataGridCheckBoxColumnEditingStyle}" Header="Tình trạng">
+                        </DataGridCheckBoxColumn>
+
+                    </DataGrid.Columns>
+                </DataGrid>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid>
+                <TextBox materialDesign:HintAssist.Hint="Đạt giải thưởng trong các kỳ thi" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="47,10,39,157" Height="45"/>
+                <TextBox materialDesign:HintAssist.Hint="Khen thưởng khác" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="47,55,39,112" Height="45"/>
+                <TextBox materialDesign:HintAssist.Hint="Nhận xét" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="47,100,39,67" Height="45"/>
+                <Button Content="Cập nhật" Width="120" Margin="500,174,480,26"></Button>
+            </Grid>
+        </Grid>
+        <materialDesign:Card Height="200" Panel.ZIndex="100" Margin="392,72,471,0" Grid.Row="1" Grid.RowSpan="2"  Visibility="Hidden" x:Name="crDSGV">
+            <ListBox Height="200" Width="300" Background="White">
+                <ListBoxItem>69509_cuong</ListBoxItem>
+                <ListBoxItem>69509_cuong</ListBoxItem>
+                <ListBoxItem>69509_cuong</ListBoxItem>
+            </ListBox>
+        </materialDesign:Card>
+    </Grid>
+
+</UserControl>

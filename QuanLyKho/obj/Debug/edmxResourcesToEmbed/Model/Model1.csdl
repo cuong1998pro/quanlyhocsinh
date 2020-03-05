@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLyHocSinhModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="QuanLyHocSinhEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="bangdiem" EntityType="QuanLyHocSinhModel.bangdiem" />
+    <EntitySet Name="chitietphieuthu" EntityType="QuanLyHocSinhModel.chitietphieuthu" />
+    <EntitySet Name="dotthu" EntityType="QuanLyHocSinhModel.dotthu" />
+    <EntitySet Name="giaovien" EntityType="QuanLyHocSinhModel.giaovien" />
+    <EntitySet Name="hocba" EntityType="QuanLyHocSinhModel.hocba" />
+    <EntitySet Name="hocky" EntityType="QuanLyHocSinhModel.hocky" />
+    <EntitySet Name="hocsinh" EntityType="QuanLyHocSinhModel.hocsinh" />
+    <EntitySet Name="khoanthu" EntityType="QuanLyHocSinhModel.khoanthu" />
+    <EntitySet Name="lop" EntityType="QuanLyHocSinhModel.lop" />
+    <EntitySet Name="monhoc" EntityType="QuanLyHocSinhModel.monhoc" />
+    <EntitySet Name="nienkhoa" EntityType="QuanLyHocSinhModel.nienkhoa" />
+    <EntitySet Name="phanconggiangday" EntityType="QuanLyHocSinhModel.phanconggiangday" />
+    <EntitySet Name="phieuthu" EntityType="QuanLyHocSinhModel.phieuthu" />
+    <EntitySet Name="sysdiagrams" EntityType="QuanLyHocSinhModel.sysdiagrams" />
+    <EntitySet Name="taikhoan" EntityType="QuanLyHocSinhModel.taikhoan" />
+    <EntitySet Name="thongbao" EntityType="QuanLyHocSinhModel.thongbao" />
+    <AssociationSet Name="fk_bd0" Association="QuanLyHocSinhModel.fk_bd0">
+      <End Role="hocsinh" EntitySet="hocsinh" />
+      <End Role="bangdiem" EntitySet="bangdiem" />
+    </AssociationSet>
+    <AssociationSet Name="fk_bd1" Association="QuanLyHocSinhModel.fk_bd1">
+      <End Role="hocky" EntitySet="hocky" />
+      <End Role="bangdiem" EntitySet="bangdiem" />
+    </AssociationSet>
+    <AssociationSet Name="fk_bd2" Association="QuanLyHocSinhModel.fk_bd2">
+      <End Role="monhoc" EntitySet="monhoc" />
+      <End Role="bangdiem" EntitySet="bangdiem" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ct" Association="QuanLyHocSinhModel.fk_ct">
+      <End Role="khoanthu" EntitySet="khoanthu" />
+      <End Role="chitietphieuthu" EntitySet="chitietphieuthu" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ct2" Association="QuanLyHocSinhModel.fk_ct2">
+      <End Role="phieuthu" EntitySet="phieuthu" />
+      <End Role="chitietphieuthu" EntitySet="chitietphieuthu" />
+    </AssociationSet>
+    <AssociationSet Name="fk_kt0" Association="QuanLyHocSinhModel.fk_kt0">
+      <End Role="dotthu" EntitySet="dotthu" />
+      <End Role="khoanthu" EntitySet="khoanthu" />
+    </AssociationSet>
+    <AssociationSet Name="fk_0" Association="QuanLyHocSinhModel.fk_0">
+      <End Role="giaovien" EntitySet="giaovien" />
+      <End Role="phanconggiangday" EntitySet="phanconggiangday" />
+    </AssociationSet>
+    <AssociationSet Name="fk_lop1" Association="QuanLyHocSinhModel.fk_lop1">
+      <End Role="giaovien" EntitySet="giaovien" />
+      <End Role="lop" EntitySet="lop" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tk" Association="QuanLyHocSinhModel.fk_tk">
+      <End Role="giaovien" EntitySet="giaovien" />
+      <End Role="taikhoan" EntitySet="taikhoan" />
+    </AssociationSet>
+    <AssociationSet Name="fk_hb" Association="QuanLyHocSinhModel.fk_hb">
+      <End Role="hocsinh" EntitySet="hocsinh" />
+      <End Role="hocba" EntitySet="hocba" />
+    </AssociationSet>
+    <AssociationSet Name="fk1_hb" Association="QuanLyHocSinhModel.fk1_hb">
+      <End Role="hocky" EntitySet="hocky" />
+      <End Role="hocba" EntitySet="hocba" />
+    </AssociationSet>
+    <AssociationSet Name="fk_3" Association="QuanLyHocSinhModel.fk_3">
+      <End Role="hocky" EntitySet="hocky" />
+      <End Role="phanconggiangday" EntitySet="phanconggiangday" />
+    </AssociationSet>
+    <AssociationSet Name="fk_hs" Association="QuanLyHocSinhModel.fk_hs">
+      <End Role="lop" EntitySet="lop" />
+      <End Role="hocsinh" EntitySet="hocsinh" />
+    </AssociationSet>
+    <AssociationSet Name="fk_pt" Association="QuanLyHocSinhModel.fk_pt">
+      <End Role="hocsinh" EntitySet="hocsinh" />
+      <End Role="phieuthu" EntitySet="phieuthu" />
+    </AssociationSet>
+    <AssociationSet Name="fk_kt" Association="QuanLyHocSinhModel.fk_kt">
+      <End Role="lop" EntitySet="lop" />
+      <End Role="khoanthu" EntitySet="khoanthu" />
+    </AssociationSet>
+    <AssociationSet Name="fk_2" Association="QuanLyHocSinhModel.fk_2">
+      <End Role="lop" EntitySet="lop" />
+      <End Role="phanconggiangday" EntitySet="phanconggiangday" />
+    </AssociationSet>
+    <AssociationSet Name="fk_lop" Association="QuanLyHocSinhModel.fk_lop">
+      <End Role="nienkhoa" EntitySet="nienkhoa" />
+      <End Role="lop" EntitySet="lop" />
+    </AssociationSet>
+    <AssociationSet Name="fk_1" Association="QuanLyHocSinhModel.fk_1">
+      <End Role="monhoc" EntitySet="monhoc" />
+      <End Role="phanconggiangday" EntitySet="phanconggiangday" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="bangdiem">
+    <Key>
+      <PropertyRef Name="mabangdiem" />
+    </Key>
+    <Property Name="mabangdiem" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="mahocsinh" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="mahocky" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="mamon" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="diem" Type="Double" />
+    <Property Name="loaidiem" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="hocsinh" Relationship="QuanLyHocSinhModel.fk_bd0" FromRole="bangdiem" ToRole="hocsinh" />
+    <NavigationProperty Name="hocky" Relationship="QuanLyHocSinhModel.fk_bd1" FromRole="bangdiem" ToRole="hocky" />
+    <NavigationProperty Name="monhoc" Relationship="QuanLyHocSinhModel.fk_bd2" FromRole="bangdiem" ToRole="monhoc" />
+  </EntityType>
+  <EntityType Name="chitietphieuthu">
+    <Key>
+      <PropertyRef Name="machitietphieuthu" />
+    </Key>
+    <Property Name="machitietphieuthu" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="makhoanthu" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="maphieuthu" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="tinhtrang" Type="Boolean" />
+    <Property Name="ghichu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="khoanthu" Relationship="QuanLyHocSinhModel.fk_ct" FromRole="chitietphieuthu" ToRole="khoanthu" />
+    <NavigationProperty Name="phieuthu" Relationship="QuanLyHocSinhModel.fk_ct2" FromRole="chitietphieuthu" ToRole="phieuthu" />
+  </EntityType>
+  <EntityType Name="dotthu">
+    <Key>
+      <PropertyRef Name="madotthu" />
+    </Key>
+    <Property Name="madotthu" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="tendotthu" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="ngaybatdau" Type="DateTime" Precision="0" />
+    <Property Name="ngayketthuc" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="khoanthu" Relationship="QuanLyHocSinhModel.fk_kt0" FromRole="dotthu" ToRole="khoanthu" />
+  </EntityType>
+  <EntityType Name="giaovien">
+    <Key>
+      <PropertyRef Name="magiaovien" />
+    </Key>
+    <Property Name="magiaovien" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="hodem" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="gioitinh" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="cmt" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="diachi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="sodienthoai" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
+    <Property Name="loaigiaovien" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="anh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="phanconggiangday" Relationship="QuanLyHocSinhModel.fk_0" FromRole="giaovien" ToRole="phanconggiangday" />
+    <NavigationProperty Name="lop" Relationship="QuanLyHocSinhModel.fk_lop1" FromRole="giaovien" ToRole="lop" />
+    <NavigationProperty Name="taikhoan" Relationship="QuanLyHocSinhModel.fk_tk" FromRole="giaovien" ToRole="taikhoan" />
+  </EntityType>
+  <EntityType Name="hocba">
+    <Key>
+      <PropertyRef Name="mahocba" />
+    </Key>
+    <Property Name="mahocba" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="dadatgiai" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="khenthuong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="nhanxet" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="mahocsinh" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="mahocky" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="diemtrungbinh" Type="Double" />
+    <Property Name="xeploaihocluc" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="xeploaihanhkiem" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="hocsinh" Relationship="QuanLyHocSinhModel.fk_hb" FromRole="hocba" ToRole="hocsinh" />
+    <NavigationProperty Name="hocky" Relationship="QuanLyHocSinhModel.fk1_hb" FromRole="hocba" ToRole="hocky" />
+  </EntityType>
+  <EntityType Name="hocky">
+    <Key>
+      <PropertyRef Name="mahocky" />
+    </Key>
+    <Property Name="mahocky" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="tenhocky" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="thoigianbatdau" Type="DateTime" Precision="0" />
+    <Property Name="thoigianketthuc" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="bangdiem" Relationship="QuanLyHocSinhModel.fk_bd1" FromRole="hocky" ToRole="bangdiem" />
+    <NavigationProperty Name="hocba" Relationship="QuanLyHocSinhModel.fk1_hb" FromRole="hocky" ToRole="hocba" />
+    <NavigationProperty Name="phanconggiangday" Relationship="QuanLyHocSinhModel.fk_3" FromRole="hocky" ToRole="phanconggiangday" />
+  </EntityType>
+  <EntityType Name="hocsinh">
+    <Key>
+      <PropertyRef Name="mahocsinh" />
+    </Key>
+    <Property Name="mahocsinh" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="hodem" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="gioitinh" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="cmt" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="diachi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="sodienthoai" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
+    <Property Name="malop" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="anh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="sotienchuanop" Type="Int32" />
+    <NavigationProperty Name="bangdiem" Relationship="QuanLyHocSinhModel.fk_bd0" FromRole="hocsinh" ToRole="bangdiem" />
+    <NavigationProperty Name="hocba" Relationship="QuanLyHocSinhModel.fk_hb" FromRole="hocsinh" ToRole="hocba" />
+    <NavigationProperty Name="lop" Relationship="QuanLyHocSinhModel.fk_hs" FromRole="hocsinh" ToRole="lop" />
+    <NavigationProperty Name="phieuthu" Relationship="QuanLyHocSinhModel.fk_pt" FromRole="hocsinh" ToRole="phieuthu" />
+  </EntityType>
+  <EntityType Name="khoanthu">
+    <Key>
+      <PropertyRef Name="makhoanthu" />
+    </Key>
+    <Property Name="makhoanthu" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="tenkhoanthu" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="sotien" Type="Int32" />
+    <Property Name="ghichu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="madotthu" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="malop" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="chitietphieuthu" Relationship="QuanLyHocSinhModel.fk_ct" FromRole="khoanthu" ToRole="chitietphieuthu" />
+    <NavigationProperty Name="dotthu" Relationship="QuanLyHocSinhModel.fk_kt0" FromRole="khoanthu" ToRole="dotthu" />
+    <NavigationProperty Name="lop" Relationship="QuanLyHocSinhModel.fk_kt" FromRole="khoanthu" ToRole="lop" />
+  </EntityType>
+  <EntityType Name="lop">
+    <Key>
+      <PropertyRef Name="malop" />
+    </Key>
+    <Property Name="malop" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="tenlop" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="manienkhoa" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="siso" Type="Int32" />
+    <Property Name="magiaovienchunhiem" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="giaovien" Relationship="QuanLyHocSinhModel.fk_lop1" FromRole="lop" ToRole="giaovien" />
+    <NavigationProperty Name="hocsinh" Relationship="QuanLyHocSinhModel.fk_hs" FromRole="lop" ToRole="hocsinh" />
+    <NavigationProperty Name="khoanthu" Relationship="QuanLyHocSinhModel.fk_kt" FromRole="lop" ToRole="khoanthu" />
+    <NavigationProperty Name="phanconggiangday" Relationship="QuanLyHocSinhModel.fk_2" FromRole="lop" ToRole="phanconggiangday" />
+    <NavigationProperty Name="nienkhoa" Relationship="QuanLyHocSinhModel.fk_lop" FromRole="lop" ToRole="nienkhoa" />
+  </EntityType>
+  <EntityType Name="monhoc">
+    <Key>
+      <PropertyRef Name="mamon" />
+    </Key>
+    <Property Name="mamon" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="tenmon" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="slmieng" Type="Int32" />
+    <Property Name="sl15" Type="Int32" />
+    <Property Name="sl45" Type="Int32" />
+    <NavigationProperty Name="bangdiem" Relationship="QuanLyHocSinhModel.fk_bd2" FromRole="monhoc" ToRole="bangdiem" />
+    <NavigationProperty Name="phanconggiangday" Relationship="QuanLyHocSinhModel.fk_1" FromRole="monhoc" ToRole="phanconggiangday" />
+  </EntityType>
+  <EntityType Name="nienkhoa">
+    <Key>
+      <PropertyRef Name="manienkhoa" />
+    </Key>
+    <Property Name="manienkhoa" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="tennienkhoa" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="nambatdau" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="namketthuc" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="lop" Relationship="QuanLyHocSinhModel.fk_lop" FromRole="nienkhoa" ToRole="lop" />
+  </EntityType>
+  <EntityType Name="phanconggiangday">
+    <Key>
+      <PropertyRef Name="maphanconggiangday" />
+    </Key>
+    <Property Name="maphanconggiangday" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="magiaovien" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="mamon" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="mahocky" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="malop" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="giaovien" Relationship="QuanLyHocSinhModel.fk_0" FromRole="phanconggiangday" ToRole="giaovien" />
+    <NavigationProperty Name="hocky" Relationship="QuanLyHocSinhModel.fk_3" FromRole="phanconggiangday" ToRole="hocky" />
+    <NavigationProperty Name="lop" Relationship="QuanLyHocSinhModel.fk_2" FromRole="phanconggiangday" ToRole="lop" />
+    <NavigationProperty Name="monhoc" Relationship="QuanLyHocSinhModel.fk_1" FromRole="phanconggiangday" ToRole="monhoc" />
+  </EntityType>
+  <EntityType Name="phieuthu">
+    <Key>
+      <PropertyRef Name="maphieuthu" />
+    </Key>
+    <Property Name="maphieuthu" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="ngaynop" Type="DateTime" Precision="0" />
+    <Property Name="tongsotiennop" Type="Int32" />
+    <Property Name="ghichu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="mahocsinh" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="chitietphieuthu" Relationship="QuanLyHocSinhModel.fk_ct2" FromRole="phieuthu" ToRole="chitietphieuthu" />
+    <NavigationProperty Name="hocsinh" Relationship="QuanLyHocSinhModel.fk_pt" FromRole="phieuthu" ToRole="hocsinh" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="taikhoan">
+    <Key>
+      <PropertyRef Name="tendangnhap" />
+    </Key>
+    <Property Name="tendangnhap" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="matkhau" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="magiaovien" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="giaovien" Relationship="QuanLyHocSinhModel.fk_tk" FromRole="taikhoan" ToRole="giaovien" />
+  </EntityType>
+  <EntityType Name="thongbao">
+    <Key>
+      <PropertyRef Name="mathongbao" />
+    </Key>
+    <Property Name="mathongbao" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="thoigian" Type="DateTime" Precision="0" />
+    <Property Name="noidung" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ghichu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="fk_bd0">
+    <End Type="QuanLyHocSinhModel.hocsinh" Role="hocsinh" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.bangdiem" Role="bangdiem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hocsinh">
+        <PropertyRef Name="mahocsinh" />
+      </Principal>
+      <Dependent Role="bangdiem">
+        <PropertyRef Name="mahocsinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_bd1">
+    <End Type="QuanLyHocSinhModel.hocky" Role="hocky" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.bangdiem" Role="bangdiem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hocky">
+        <PropertyRef Name="mahocky" />
+      </Principal>
+      <Dependent Role="bangdiem">
+        <PropertyRef Name="mahocky" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_bd2">
+    <End Type="QuanLyHocSinhModel.monhoc" Role="monhoc" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.bangdiem" Role="bangdiem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="monhoc">
+        <PropertyRef Name="mamon" />
+      </Principal>
+      <Dependent Role="bangdiem">
+        <PropertyRef Name="mamon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ct">
+    <End Type="QuanLyHocSinhModel.khoanthu" Role="khoanthu" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.chitietphieuthu" Role="chitietphieuthu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="khoanthu">
+        <PropertyRef Name="makhoanthu" />
+      </Principal>
+      <Dependent Role="chitietphieuthu">
+        <PropertyRef Name="makhoanthu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ct2">
+    <End Type="QuanLyHocSinhModel.phieuthu" Role="phieuthu" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.chitietphieuthu" Role="chitietphieuthu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="phieuthu">
+        <PropertyRef Name="maphieuthu" />
+      </Principal>
+      <Dependent Role="chitietphieuthu">
+        <PropertyRef Name="maphieuthu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_kt0">
+    <End Type="QuanLyHocSinhModel.dotthu" Role="dotthu" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.khoanthu" Role="khoanthu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dotthu">
+        <PropertyRef Name="madotthu" />
+      </Principal>
+      <Dependent Role="khoanthu">
+        <PropertyRef Name="madotthu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_0">
+    <End Type="QuanLyHocSinhModel.giaovien" Role="giaovien" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.phanconggiangday" Role="phanconggiangday" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="giaovien">
+        <PropertyRef Name="magiaovien" />
+      </Principal>
+      <Dependent Role="phanconggiangday">
+        <PropertyRef Name="magiaovien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_lop1">
+    <End Type="QuanLyHocSinhModel.giaovien" Role="giaovien" Multiplicity="0..1" />
+    <End Type="QuanLyHocSinhModel.lop" Role="lop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="giaovien">
+        <PropertyRef Name="magiaovien" />
+      </Principal>
+      <Dependent Role="lop">
+        <PropertyRef Name="magiaovienchunhiem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tk">
+    <End Type="QuanLyHocSinhModel.giaovien" Role="giaovien" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.taikhoan" Role="taikhoan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="giaovien">
+        <PropertyRef Name="magiaovien" />
+      </Principal>
+      <Dependent Role="taikhoan">
+        <PropertyRef Name="magiaovien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_hb">
+    <End Type="QuanLyHocSinhModel.hocsinh" Role="hocsinh" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.hocba" Role="hocba" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hocsinh">
+        <PropertyRef Name="mahocsinh" />
+      </Principal>
+      <Dependent Role="hocba">
+        <PropertyRef Name="mahocsinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk1_hb">
+    <End Type="QuanLyHocSinhModel.hocky" Role="hocky" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.hocba" Role="hocba" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hocky">
+        <PropertyRef Name="mahocky" />
+      </Principal>
+      <Dependent Role="hocba">
+        <PropertyRef Name="mahocky" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_3">
+    <End Type="QuanLyHocSinhModel.hocky" Role="hocky" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.phanconggiangday" Role="phanconggiangday" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hocky">
+        <PropertyRef Name="mahocky" />
+      </Principal>
+      <Dependent Role="phanconggiangday">
+        <PropertyRef Name="mahocky" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_hs">
+    <End Type="QuanLyHocSinhModel.lop" Role="lop" Multiplicity="0..1" />
+    <End Type="QuanLyHocSinhModel.hocsinh" Role="hocsinh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lop">
+        <PropertyRef Name="malop" />
+      </Principal>
+      <Dependent Role="hocsinh">
+        <PropertyRef Name="malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_pt">
+    <End Type="QuanLyHocSinhModel.hocsinh" Role="hocsinh" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.phieuthu" Role="phieuthu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hocsinh">
+        <PropertyRef Name="mahocsinh" />
+      </Principal>
+      <Dependent Role="phieuthu">
+        <PropertyRef Name="mahocsinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_kt">
+    <End Type="QuanLyHocSinhModel.lop" Role="lop" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.khoanthu" Role="khoanthu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lop">
+        <PropertyRef Name="malop" />
+      </Principal>
+      <Dependent Role="khoanthu">
+        <PropertyRef Name="malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_2">
+    <End Type="QuanLyHocSinhModel.lop" Role="lop" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.phanconggiangday" Role="phanconggiangday" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lop">
+        <PropertyRef Name="malop" />
+      </Principal>
+      <Dependent Role="phanconggiangday">
+        <PropertyRef Name="malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_lop">
+    <End Type="QuanLyHocSinhModel.nienkhoa" Role="nienkhoa" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.lop" Role="lop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nienkhoa">
+        <PropertyRef Name="manienkhoa" />
+      </Principal>
+      <Dependent Role="lop">
+        <PropertyRef Name="manienkhoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_1">
+    <End Type="QuanLyHocSinhModel.monhoc" Role="monhoc" Multiplicity="1" />
+    <End Type="QuanLyHocSinhModel.phanconggiangday" Role="phanconggiangday" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="monhoc">
+        <PropertyRef Name="mamon" />
+      </Principal>
+      <Dependent Role="phanconggiangday">
+        <PropertyRef Name="mamon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

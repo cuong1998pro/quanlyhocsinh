@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="QuanLyKho.UserControls.DanhSachNguoiDungUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanLyKho.UserControls"
+             d:DesignHeight="723" d:DesignWidth="1100"
+             mc:Ignorable="d" 
+              TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+            TextElement.FontWeight="Regular"
+            TextElement.FontSize="13"
+            TextOptions.TextFormattingMode="Ideal"
+            TextOptions.TextRenderingMode="Auto"
+            xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+            Background="{DynamicResource MaterialDesignPaper}"
+            FontFamily="{DynamicResource MaterialDesignFont}"
+            DataContext="{DynamicResource MainVM}"
+            x:Name="ucControlBar">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="auto" MinHeight="63"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <materialDesign:Card>
+                <TextBlock Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="10" Text=" Quản lý danh sách người dùng"></TextBlock>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid>
+                <TextBox materialDesign:HintAssist.Hint="Tên đăng nhập" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Height="45" Margin="50,10,852,24" />
+                <TextBox materialDesign:HintAssist.Hint="Chọn giáo viên" Style="{StaticResource MaterialDesignFloatingHintTextBox}"  Height="45" Margin="565,10,337,24"/>
+
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" Panel.ZIndex="0">
+
+            <Grid>
+                <Button Name="btnThem" Content="Thêm" Background="#FF8CC565" Width="110" Margin="70,14,920,17"></Button>
+                <Button Name="btnSua"   Content="Sửa" Background="#6897C8" Width="110" Margin="210,14,780,17" RenderTransformOrigin="0.509,0.719"></Button>
+                <Button Name="btnXoa"   Content="Xóa" Background="#CC3C3C" Width="110" Margin="349,14,641,17" RenderTransformOrigin="0.191,0.906"></Button>
+                <materialDesign:PackIcon Kind="Sort" Width="30" Height="40" Margin="658,10,0,0"   />
+                <ComboBox materialDesign:HintAssist.Hint="Sắp xếp"  Width="130" Margin="686,19,284,16">
+                    <ComboBoxItem>Theo mã</ComboBoxItem>
+                </ComboBox>
+                <TextBox x:Name="txtTim" materialDesign:HintAssist.Hint="Tìm kiếm" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="482,-16,477,16"  />
+                <Button Name="btnInDanhSach"   Content="Xuất Exel" Width="110" Margin="843,16,147,15"></Button>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="3" Panel.ZIndex="0">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <ListView>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Width="100"  Header="Tên đăng nhập"></GridViewColumn>
+                            <GridViewColumn Width="200" Header="Tên giáo viên"></GridViewColumn>
+                            <GridViewColumn Width="200" Header="Ngày sinh"></GridViewColumn>
+                            <GridViewColumn Width="100" Header="Giới tính"></GridViewColumn>
+                            <GridViewColumn Width="200" Header="Loại giáo viên"></GridViewColumn>
+                            <GridViewColumn Width="200" Header="Bộ môn"></GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </ScrollViewer>
+        </Grid>
+
+    </Grid>
+
+</UserControl>
